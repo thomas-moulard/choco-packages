@@ -1,0 +1,22 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+The embedded software have been downloaded from the listed download
+location on <https://www.rti.com/free-trial/dds-files>
+and can be verified by doing the following:
+
+1. Download the following:
+  32-Bit software: <https://s3.amazonaws.com/RTI/Bundles/5.3.1/Evaluation/rti_connext_dds_secure-5.3.1-eval-i86Win32VS2017.zip>
+  64-Bit software: <https://s3.amazonaws.com/RTI/Bundles/5.3.1/Evaluation/rti_connext_dds_secure-5.3.1-eval-x64Win64VS2017.zip>
+2. Get the checksum using one of the following methods:
+  - Using powershell function 'Get-FileHash'
+  - Use chocolatey utility 'checksum.exe'
+3. The checksums should match the following:
+
+  checksum type: sha256
+  checksum32: 5B78DFAB5A57F542CA94C0F467462430D850C0D94EC13FC06E60A118391220C0
+  checksum64: CAAED4527D2A00F60BCC637742B73FE7C7CAE9B57809A9BBF2BE1C8D729FDE79
+
+The file 'RTI_OpenCommunitySourceLicense_4032_Rev06-16.pdf' has been obtained
+from <https://info.rti.com/hubfs/licenses/RTI_OpenCommunitySourceLicense_4032_Rev06-16.pdf>
